@@ -1,0 +1,17 @@
+@import "../../scripts/scss/base/config";
+
+.container {
+  width: 100%;
+  padding: 1em 1em;
+  --primary-color: #{$primary-color};
+  --secondary-color: #{$secondary-color};
+  --light-color: #{$light-color};
+  --grey-color: #{$grey-color};
+  --red-color: red;
+}
+$backgrounds: [ "primary", "secondary", "light", "grey", "red" ];
+@each $bg in $backgrounds {
+  .bg-#{$bg} {
+    background: var(--#{$bg}-color);
+  }
+}

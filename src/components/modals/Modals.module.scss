@@ -1,0 +1,45 @@
+.card {
+  background: #fff;
+  border: 1px solid black;
+  border-radius: 10px;
+  max-width: 600px;
+  position: fixed;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -25%);
+  z-index: 1000;
+  padding: 20px 40px;
+  max-height: 95vh;
+  overflow-y: auto;
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  &-container {
+    position: relative;
+    margin: 0 auto;
+  }
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.72);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1000;
+}
+.close-btn {
+  display: block;
+  position: absolute;
+  font-size: 25px;
+  right: 28px;
+  top: 20px;
+  border: none;
+  background: inherit;
+  cursor: pointer;
+}

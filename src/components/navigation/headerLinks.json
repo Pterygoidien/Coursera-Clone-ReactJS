@@ -1,0 +1,20 @@
+{
+  "links": [
+    {
+      "name": "Diplômes en ligne",
+      "path": "/degrees"
+    },
+    {
+      "name": "Rechercher des carrières",
+      "path": "/career-academy"
+    },
+    {
+      "name": "Pour l'entreprise",
+      "path": "/business"
+    },
+    {
+      "name": "Pour les étudiants",
+      "path": "for-university-and-college-students/"
+    }
+  ]
+}

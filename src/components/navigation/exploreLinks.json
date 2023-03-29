@@ -1,0 +1,57 @@
+{
+  "Objectifs": [
+    {
+      "name": "Suivre un cours gratuit",
+      "path": "/courses?query=free"
+    },
+    {
+      "name": "Obtenir un diplôme"
+    },
+    {
+      "name": "Obtenir un certificat",
+      "path": "/certificates"
+    },
+    {
+      "name": "Lancez ou faites progresser votre carrière"
+    },
+    {
+      "name": "Formez votre équipe",
+      "path": "/business"
+    }
+  ],
+  "Sujets": [
+    {
+      "name": "Science des données"
+    },
+    {
+      "name": "Business"
+    },
+    {
+      "name": "Informatique"
+    },
+    {
+      "name": "Technologies de l'information"
+    },
+    {
+      "name": "Apprentissage des langues"
+    },
+    {
+      "name": "Santé"
+    },
+    {
+      "name": "Développement personnel"
+    },
+    {
+      "name": "Sciences physiques et ingénierie"
+    },
+    {
+      "name": "Sciences sociales"
+    },
+    {
+      "name": "Arts et humanités"
+    },
+    {
+      "name": "Mathématiques et logiques"
+    }
+  ]
+}
